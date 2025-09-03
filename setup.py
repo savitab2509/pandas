@@ -66,6 +66,8 @@ _pxi_dep_template = {
     "interval": ["_libs/intervaltree.pxi.in"],
 }
 
+print('Version 2')
+
 _pxifiles = []
 _pxi_dep = {}
 for module, files in _pxi_dep_template.items():
