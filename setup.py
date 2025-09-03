@@ -66,6 +66,8 @@ _pxi_dep_template = {
     "interval": ["_libs/intervaltree.pxi.in"],
 }
 
+print('Testing branch tree')
+
 print('Version 2')
 
 _pxifiles = []
