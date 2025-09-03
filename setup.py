@@ -6,6 +6,7 @@ Parts of this file were taken from the pyzmq project
 BSD license. Parts are from lxml (https://github.com/lxml/lxml)
 """
 
+
 import argparse
 import multiprocessing
 import os
@@ -72,6 +73,7 @@ for module, files in _pxi_dep_template.items():
     _pxifiles.extend(pxi_files)
     _pxi_dep[module] = pxi_files
 
+print('Version 2')
 
 class build_ext(_build_ext):
     @classmethod
